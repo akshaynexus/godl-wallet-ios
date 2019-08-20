@@ -4545,6 +4545,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"BITCOIN_TESTNET=1",
 				);
 				HEADER_SEARCH_PATHS = (
 					"${SRCROOT}/Modules/breadwallet-core",
