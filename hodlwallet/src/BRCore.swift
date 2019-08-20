@@ -353,7 +353,7 @@ extension UnsafeMutablePointer where Pointee == BRTransaction {
     // adds signatures to any inputs with NULL signatures that can be signed with any keys
     // forkId is 0 for bitcoin, 0x40 for b-cash
     // returns true if tx is signed
-    func sign(forkId: Int = 0, keys: inout [BRKey]) -> Bool {
+    func sign(forkId: Int = 0x20, keys: inout [BRKey]) -> Bool {
         return BRTransactionSign(self, Int32(forkId), &keys, keys.count) != 0
     }
     
