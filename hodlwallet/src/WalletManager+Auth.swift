@@ -271,7 +271,7 @@ extension WalletManager : WalletAuthenticator {
     }
     
     // sign the given transaction using pin authentication
-    func signTransaction(_ tx: BRTxRef, forkId: Int = 0, pin: String) -> Bool {
+    func signTransaction(_ tx: BRTxRef, forkId: Int = 0x20, pin: String) -> Bool {
         guard authenticate(pin: pin) else { return false }
         return signTx(tx, forkId: forkId)
     }
@@ -514,7 +514,7 @@ extension WalletManager : WalletAuthenticator {
         public static let pinUnlockTime = "PIN_UNLOCK_TIME"
     }
     
-    private func signTx(_ tx: BRTxRef, forkId: Int = 0) -> Bool {
+    private func signTx(_ tx: BRTxRef, forkId: Int = 0x20) -> Bool {
         return autoreleasepool {
             do {
                 var seed = UInt512()

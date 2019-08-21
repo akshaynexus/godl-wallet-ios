@@ -70,7 +70,7 @@ class Sender {
         if UserDefaults.isBiometricsEnabled && walletManager.canUseBiometrics(forTx:tx) {
             DispatchQueue.walletQueue.async { [weak self] in
                 guard let myself = self else { return }
-                myself.walletManager.signTransaction(tx, biometricsPrompt: biometricsMessage, completion: { result in
+                myself.walletManager.signTransaction(tx,biometricsPrompt: biometricsMessage, completion: { result in
                     if result == .success {
                         myself.publish(completion: completion)
                     } else {
