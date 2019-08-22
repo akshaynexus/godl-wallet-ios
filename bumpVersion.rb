@@ -5,10 +5,10 @@
 # This will increment the CFBundleVersion of all of the required targets by one
 # 
 require 'xcodeproj'
-project_path = './hodlwallet.xcodeproj'
+project_path = './godlwallet.xcodeproj'
 project = Xcodeproj::Project.open(project_path)
 
-desiredTargets = ['hodlwallet', 'hodlwallet WatchKit Extension', 'hodlwallet WatchKit App', 'TodayExtension', 'NotificationServiceExtension', 'MessagesExtension']
+desiredTargets = ['godlwallet', 'godlwallet WatchKit Extension', 'godlwallet WatchKit App', 'TodayExtension', 'NotificationServiceExtension', 'MessagesExtension']
 targets = project.native_targets.select do |target|
   desiredTargets.include? target.name
 end

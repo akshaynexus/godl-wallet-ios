@@ -8,7 +8,7 @@
 	<string>NSFileProtectionComplete</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.co.hodlwallet</string>
+		<string>group.co.godlwallet</string>
 	</array>
 </dict>
 </plist>

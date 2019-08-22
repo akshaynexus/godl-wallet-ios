@@ -15,15 +15,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-               BuildableName = "hodlwallet.app"
-               BlueprintName = "hodlwallet"
-               ReferencedContainer = "container:hodlwallet.xcodeproj">
+               BuildableName = "godlwallet.app"
+               BlueprintName = "godlwallet"
+               ReferencedContainer = "container:godlwallet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Screenshots"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -32,20 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "75A2A7A31DA5934300A983D8"
-               BuildableName = "hodlwalletTests.xctest"
-               BlueprintName = "hodlwalletTests"
-               ReferencedContainer = "container:hodlwallet.xcodeproj">
+               BlueprintIdentifier = "CEA7E67A1F09A9D2001F8C27"
+               BuildableName = "Screenshots.xctest"
+               BlueprintName = "Screenshots"
+               ReferencedContainer = "container:godlwallet.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "75A2A7A31DA5934300A983D8"
+               BuildableName = "godlwalletTests.xctest"
+               BlueprintName = "godlwalletTests"
+               ReferencedContainer = "container:godlwallet.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "75A2A7AE1DA5934300A983D8"
-               BuildableName = "hodlwalletUITests.xctest"
-               BlueprintName = "hodlwalletUITests"
-               ReferencedContainer = "container:hodlwallet.xcodeproj">
+               BuildableName = "godlwalletUITests.xctest"
+               BlueprintName = "godlwalletUITests"
+               ReferencedContainer = "container:godlwallet.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,16 +63,16 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-            BuildableName = "hodlwallet.app"
-            BlueprintName = "hodlwallet"
-            ReferencedContainer = "container:hodlwallet.xcodeproj">
+            BuildableName = "godlwallet.app"
+            BlueprintName = "godlwallet"
+            ReferencedContainer = "container:godlwallet.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Testnet"
+      buildConfiguration = "Screenshots"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -76,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-            BuildableName = "hodlwallet.app"
-            BlueprintName = "hodlwallet"
-            ReferencedContainer = "container:hodlwallet.xcodeproj">
+            BuildableName = "godlwallet.app"
+            BlueprintName = "godlwallet"
+            ReferencedContainer = "container:godlwallet.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +105,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-            BuildableName = "hodlwallet.app"
-            BlueprintName = "hodlwallet"
-            ReferencedContainer = "container:hodlwallet.xcodeproj">
+            BuildableName = "godlwallet.app"
+            BlueprintName = "godlwallet"
+            ReferencedContainer = "container:godlwallet.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

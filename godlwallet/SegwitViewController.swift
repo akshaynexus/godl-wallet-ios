@@ -1,6 +1,6 @@
 //
 //  SegwitViewController.swift
-//  hodlwallet
+//  godlwallet
 //
 //  Created by Igor on 1/7/19.
 //  Copyright © 2019 Hodl Wallet Inc. All rights reserved.

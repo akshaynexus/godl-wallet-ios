@@ -9,7 +9,7 @@
 import Foundation
 
 private enum AppGroup {
-    static let id = "group.co.hodlwallet"
+    static let id = "group.co.godlwallet"
     static let requestDataKey = "kBRSharedContainerDataWalletRequestDataKey"
     static let receiveAddressKey = "kBRSharedContainerDataWalletReceiveAddressKey"
 }

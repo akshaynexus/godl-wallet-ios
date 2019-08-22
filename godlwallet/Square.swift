@@ -1,6 +1,6 @@
 //
 //  Square.swift
-//  hodlwallet
+//  godlwallet
 //
 //  Created by Igor on 5/14/18.
 //

@@ -33,11 +33,11 @@ struct C {
     static let secondsInDay: TimeInterval = 86400
     static let maxMoney: UInt64 = 21000000*100000000
     static let satoshis: UInt64 = 100000000
-    static let walletQueue = "co.hodlwallet.walletqueue"
+    static let walletQueue = "co.godlwallet.walletqueue"
     static let btcCurrencyCode = "BTC"
     static let null = "(null)"
     static let maxMemoLength = 250
-    static let feedbackEmail = "support@hodlwallet.co"
+    static let feedbackEmail = "support@godlwallet.co"
     static let reviewLink = "https://itunes.apple.com/app/hodl-wallet/id1382342568?action=write-review"
     static var standardPort: Int {
         return E.isTestnet ? 18333 : 8333

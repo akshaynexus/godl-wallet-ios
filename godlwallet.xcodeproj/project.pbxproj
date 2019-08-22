@@ -199,10 +199,10 @@
 		75A2A79B1DA5934300A983D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A2A79A1DA5934300A983D8 /* Assets.xcassets */; };
 		75A2A79E1DA5934300A983D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A2A79C1DA5934300A983D8 /* LaunchScreen.storyboard */; };
 		75A2A7B41DA5934300A983D8 /* breadwalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2A7B31DA5934300A983D8 /* breadwalletUITests.swift */; };
-		75A2A7B91DA5934300A983D8 /* hodlwallet WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 75A2A7B81DA5934300A983D8 /* hodlwallet WatchKit App.app */; };
+		75A2A7B91DA5934300A983D8 /* godlwallet WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 75A2A7B81DA5934300A983D8 /* godlwallet WatchKit App.app */; };
 		75A2A7BF1DA5934300A983D8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A2A7BD1DA5934300A983D8 /* Interface.storyboard */; };
 		75A2A7C11DA5934300A983D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A2A7C01DA5934300A983D8 /* Assets.xcassets */; };
-		75A2A7C81DA5934300A983D8 /* hodlwallet WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 75A2A7C71DA5934300A983D8 /* hodlwallet WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75A2A7C81DA5934300A983D8 /* godlwallet WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 75A2A7C71DA5934300A983D8 /* godlwallet WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		75A2A7CF1DA5934300A983D8 /* BalanceInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2A7CE1DA5934300A983D8 /* BalanceInterfaceController.swift */; };
 		75A2A7D11DA5934300A983D8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2A7D01DA5934300A983D8 /* ExtensionDelegate.swift */; };
 		75A2A7D31DA5934300A983D8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2A7D21DA5934300A983D8 /* NotificationController.swift */; };
@@ -473,28 +473,28 @@
 			containerPortal = 75A2A7881DA5934300A983D8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 75A2A78F1DA5934300A983D8;
-			remoteInfo = hodlwallet;
+			remoteInfo = godlwallet;
 		};
 		75A2A7B01DA5934300A983D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75A2A7881DA5934300A983D8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 75A2A78F1DA5934300A983D8;
-			remoteInfo = hodlwallet;
+			remoteInfo = godlwallet;
 		};
 		75A2A7BA1DA5934300A983D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75A2A7881DA5934300A983D8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 75A2A7B71DA5934300A983D8;
-			remoteInfo = "hodlwallet WatchKit App";
+			remoteInfo = "godlwallet WatchKit App";
 		};
 		75A2A7C91DA5934300A983D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75A2A7881DA5934300A983D8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 75A2A7C61DA5934300A983D8;
-			remoteInfo = "hodlwallet WatchKit Extension";
+			remoteInfo = "godlwallet WatchKit Extension";
 		};
 		75A2A8121DA5936F00A983D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -515,7 +515,7 @@
 			containerPortal = 75A2A7881DA5934300A983D8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 75A2A78F1DA5934300A983D8;
-			remoteInfo = hodlwallet;
+			remoteInfo = godlwallet;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -556,7 +556,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				75A2A7C81DA5934300A983D8 /* hodlwallet WatchKit Extension.appex in Embed App Extensions */,
+				75A2A7C81DA5934300A983D8 /* godlwallet WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -567,7 +567,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				75A2A7B91DA5934300A983D8 /* hodlwallet WatchKit App.app in Embed Watch Content */,
+				75A2A7B91DA5934300A983D8 /* godlwallet WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1268,21 +1268,21 @@
 		755CD9D11DAA197C0075898E /* libBRCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBRCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		759DA09F1DAB838D008CC49B /* view.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = view.c; sourceTree = "<group>"; };
 		759DA0A01DAB838D008CC49B /* view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view.h; sourceTree = "<group>"; };
-		75A2A7901DA5934300A983D8 /* hodlwallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hodlwallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A2A7901DA5934300A983D8 /* godlwallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = godlwallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A2A7931DA5934300A983D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75A2A79A1DA5934300A983D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75A2A79D1DA5934300A983D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75A2A79F1DA5934300A983D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75A2A7A41DA5934300A983D8 /* hodlwalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hodlwalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A2A7A41DA5934300A983D8 /* godlwalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = godlwalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A2A7AA1DA5934300A983D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75A2A7AF1DA5934300A983D8 /* hodlwalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hodlwalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A2A7AF1DA5934300A983D8 /* godlwalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = godlwalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A2A7B31DA5934300A983D8 /* breadwalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breadwalletUITests.swift; sourceTree = "<group>"; };
 		75A2A7B51DA5934300A983D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75A2A7B81DA5934300A983D8 /* hodlwallet WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hodlwallet WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A2A7B81DA5934300A983D8 /* godlwallet WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "godlwallet WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A2A7BE1DA5934300A983D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		75A2A7C01DA5934300A983D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75A2A7C21DA5934300A983D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75A2A7C71DA5934300A983D8 /* hodlwallet WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "hodlwallet WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A2A7C71DA5934300A983D8 /* godlwallet WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "godlwallet WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A2A7CD1DA5934300A983D8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		75A2A7CE1DA5934300A983D8 /* BalanceInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceInterfaceController.swift; sourceTree = "<group>"; };
 		75A2A7D01DA5934300A983D8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
@@ -1351,7 +1351,7 @@
 		75A2A8791DA59C8B00A983D8 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Interface.strings; sourceTree = "<group>"; };
 		75A2A87A1DA59C8B00A983D8 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		75A2A87B1DA59C8B00A983D8 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/MainInterface.strings; sourceTree = "<group>"; };
-		75A2A87C1DA59E4E00A983D8 /* hodlwallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hodlwallet.entitlements; sourceTree = "<group>"; };
+		75A2A87C1DA59E4E00A983D8 /* godlwallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = godlwallet.entitlements; sourceTree = "<group>"; };
 		75C735AF1DAA1C9F00251ECF /* libnettle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnettle.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DC77AE1DAA05B500932D9A /* BRAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRAddress.c; sourceTree = "<group>"; };
 		75DC77AF1DAA05B500932D9A /* BRAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddress.h; sourceTree = "<group>"; };
@@ -2566,11 +2566,11 @@
 		75A2A7871DA5934300A983D8 = {
 			isa = PBXGroup;
 			children = (
-				75A2A7921DA5934300A983D8 /* hodlwallet */,
-				75A2A7A71DA5934300A983D8 /* hodlwalletTests */,
-				75A2A7B21DA5934300A983D8 /* hodlwalletUITests */,
-				75A2A7BC1DA5934300A983D8 /* hodlwallet WatchKit App */,
-				75A2A7CB1DA5934300A983D8 /* hodlwallet WatchKit Extension */,
+				75A2A7921DA5934300A983D8 /* godlwallet */,
+				75A2A7A71DA5934300A983D8 /* godlwalletTests */,
+				75A2A7B21DA5934300A983D8 /* godlwalletUITests */,
+				75A2A7BC1DA5934300A983D8 /* godlwallet WatchKit App */,
+				75A2A7CB1DA5934300A983D8 /* godlwallet WatchKit Extension */,
 				75A2A7F41DA5935F00A983D8 /* MessagesExtension */,
 				75A2A80B1DA5936F00A983D8 /* TodayExtension */,
 				75A2A81D1DA5938500A983D8 /* NotificationServiceExtension */,
@@ -2584,11 +2584,11 @@
 		75A2A7911DA5934300A983D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75A2A7901DA5934300A983D8 /* hodlwallet.app */,
-				75A2A7A41DA5934300A983D8 /* hodlwalletTests.xctest */,
-				75A2A7AF1DA5934300A983D8 /* hodlwalletUITests.xctest */,
-				75A2A7B81DA5934300A983D8 /* hodlwallet WatchKit App.app */,
-				75A2A7C71DA5934300A983D8 /* hodlwallet WatchKit Extension.appex */,
+				75A2A7901DA5934300A983D8 /* godlwallet.app */,
+				75A2A7A41DA5934300A983D8 /* godlwalletTests.xctest */,
+				75A2A7AF1DA5934300A983D8 /* godlwalletUITests.xctest */,
+				75A2A7B81DA5934300A983D8 /* godlwallet WatchKit App.app */,
+				75A2A7C71DA5934300A983D8 /* godlwallet WatchKit Extension.appex */,
 				75A2A7F01DA5935F00A983D8 /* MessagesExtension.appex */,
 				75A2A8081DA5936F00A983D8 /* TodayExtension.appex */,
 				75A2A81C1DA5938500A983D8 /* NotificationServiceExtension.appex */,
@@ -2602,10 +2602,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75A2A7921DA5934300A983D8 /* hodlwallet */ = {
+		75A2A7921DA5934300A983D8 /* godlwallet */ = {
 			isa = PBXGroup;
 			children = (
-				75A2A87C1DA59E4E00A983D8 /* hodlwallet.entitlements */,
+				75A2A87C1DA59E4E00A983D8 /* godlwallet.entitlements */,
 				75A2A7931DA5934300A983D8 /* AppDelegate.swift */,
 				CE20C8F11DBAF71500C8397A /* ApplicationController.swift */,
 				754AE0BB1DFE8A46007FD001 /* BRCore.swift */,
@@ -2644,10 +2644,10 @@
 				75A2A79C1DA5934300A983D8 /* LaunchScreen.storyboard */,
 				75A2A79F1DA5934300A983D8 /* Info.plist */,
 			);
-			path = hodlwallet;
+			path = godlwallet;
 			sourceTree = "<group>";
 		};
-		75A2A7A71DA5934300A983D8 /* hodlwalletTests */ = {
+		75A2A7A71DA5934300A983D8 /* godlwalletTests */ = {
 			isa = PBXGroup;
 			children = (
 				75A2A7AA1DA5934300A983D8 /* Info.plist */,
@@ -2662,19 +2662,19 @@
 				CEEC70971E96BF8800EF788E /* DefaultCurrencyTests.swift */,
 				CEA7E6751F057D77001F8C27 /* WalletInfoTest.swift */,
 			);
-			path = hodlwalletTests;
+			path = godlwalletTests;
 			sourceTree = "<group>";
 		};
-		75A2A7B21DA5934300A983D8 /* hodlwalletUITests */ = {
+		75A2A7B21DA5934300A983D8 /* godlwalletUITests */ = {
 			isa = PBXGroup;
 			children = (
 				75A2A7B31DA5934300A983D8 /* breadwalletUITests.swift */,
 				75A2A7B51DA5934300A983D8 /* Info.plist */,
 			);
-			path = hodlwalletUITests;
+			path = godlwalletUITests;
 			sourceTree = "<group>";
 		};
-		75A2A7BC1DA5934300A983D8 /* hodlwallet WatchKit App */ = {
+		75A2A7BC1DA5934300A983D8 /* godlwallet WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				75A2A7BD1DA5934300A983D8 /* Interface.storyboard */,
@@ -2682,10 +2682,10 @@
 				75A2A7C21DA5934300A983D8 /* Info.plist */,
 				CEFFA2D01EB3BD730085C5D1 /* LoadingIndicator.xcassets */,
 			);
-			path = "hodlwallet WatchKit App";
+			path = "godlwallet WatchKit App";
 			sourceTree = "<group>";
 		};
-		75A2A7CB1DA5934300A983D8 /* hodlwallet WatchKit Extension */ = {
+		75A2A7CB1DA5934300A983D8 /* godlwallet WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				75A2A7D01DA5934300A983D8 /* ExtensionDelegate.swift */,
@@ -2700,7 +2700,7 @@
 				75A2A7D81DA5934400A983D8 /* Info.plist */,
 				75A2A7CC1DA5934300A983D8 /* Supporting Files */,
 			);
-			path = "hodlwallet WatchKit Extension";
+			path = "godlwallet WatchKit Extension";
 			sourceTree = "<group>";
 		};
 		75A2A7CC1DA5934300A983D8 /* Supporting Files */ = {
@@ -3290,9 +3290,9 @@
 			productReference = 755CD9D11DAA197C0075898E /* libBRCore.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		75A2A78F1DA5934300A983D8 /* hodlwallet */ = {
+		75A2A78F1DA5934300A983D8 /* godlwallet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75A2A7E31DA5934400A983D8 /* Build configuration list for PBXNativeTarget "hodlwallet" */;
+			buildConfigurationList = 75A2A7E31DA5934400A983D8 /* Build configuration list for PBXNativeTarget "godlwallet" */;
 			buildPhases = (
 				75A2A78C1DA5934300A983D8 /* Sources */,
 				75A2A78D1DA5934300A983D8 /* Frameworks */,
@@ -3312,14 +3312,14 @@
 				22A9A99C1DF63426000F0016 /* PBXTargetDependency */,
 				752FB04F1DF8BF5C009086FB /* PBXTargetDependency */,
 			);
-			name = hodlwallet;
-			productName = hodlwallet;
-			productReference = 75A2A7901DA5934300A983D8 /* hodlwallet.app */;
+			name = godlwallet;
+			productName = godlwallet;
+			productReference = 75A2A7901DA5934300A983D8 /* godlwallet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		75A2A7A31DA5934300A983D8 /* hodlwalletTests */ = {
+		75A2A7A31DA5934300A983D8 /* godlwalletTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75A2A7E61DA5934400A983D8 /* Build configuration list for PBXNativeTarget "hodlwalletTests" */;
+			buildConfigurationList = 75A2A7E61DA5934400A983D8 /* Build configuration list for PBXNativeTarget "godlwalletTests" */;
 			buildPhases = (
 				75A2A7A01DA5934300A983D8 /* Sources */,
 				75A2A7A11DA5934300A983D8 /* Frameworks */,
@@ -3330,14 +3330,14 @@
 			dependencies = (
 				75A2A7A61DA5934300A983D8 /* PBXTargetDependency */,
 			);
-			name = hodlwalletTests;
-			productName = hodlwalletTests;
-			productReference = 75A2A7A41DA5934300A983D8 /* hodlwalletTests.xctest */;
+			name = godlwalletTests;
+			productName = godlwalletTests;
+			productReference = 75A2A7A41DA5934300A983D8 /* godlwalletTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		75A2A7AE1DA5934300A983D8 /* hodlwalletUITests */ = {
+		75A2A7AE1DA5934300A983D8 /* godlwalletUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75A2A7E91DA5934400A983D8 /* Build configuration list for PBXNativeTarget "hodlwalletUITests" */;
+			buildConfigurationList = 75A2A7E91DA5934400A983D8 /* Build configuration list for PBXNativeTarget "godlwalletUITests" */;
 			buildPhases = (
 				75A2A7AB1DA5934300A983D8 /* Sources */,
 				75A2A7AC1DA5934300A983D8 /* Frameworks */,
@@ -3348,14 +3348,14 @@
 			dependencies = (
 				75A2A7B11DA5934300A983D8 /* PBXTargetDependency */,
 			);
-			name = hodlwalletUITests;
-			productName = hodlwalletUITests;
-			productReference = 75A2A7AF1DA5934300A983D8 /* hodlwalletUITests.xctest */;
+			name = godlwalletUITests;
+			productName = godlwalletUITests;
+			productReference = 75A2A7AF1DA5934300A983D8 /* godlwalletUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		75A2A7B71DA5934300A983D8 /* hodlwallet WatchKit App */ = {
+		75A2A7B71DA5934300A983D8 /* godlwallet WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75A2A7DF1DA5934400A983D8 /* Build configuration list for PBXNativeTarget "hodlwallet WatchKit App" */;
+			buildConfigurationList = 75A2A7DF1DA5934400A983D8 /* Build configuration list for PBXNativeTarget "godlwallet WatchKit App" */;
 			buildPhases = (
 				75A2A7B61DA5934300A983D8 /* Resources */,
 				75A2A7DE1DA5934400A983D8 /* Embed App Extensions */,
@@ -3365,14 +3365,14 @@
 			dependencies = (
 				75A2A7CA1DA5934300A983D8 /* PBXTargetDependency */,
 			);
-			name = "hodlwallet WatchKit App";
-			productName = "hodlwallet WatchKit App";
-			productReference = 75A2A7B81DA5934300A983D8 /* hodlwallet WatchKit App.app */;
+			name = "godlwallet WatchKit App";
+			productName = "godlwallet WatchKit App";
+			productReference = 75A2A7B81DA5934300A983D8 /* godlwallet WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		75A2A7C61DA5934300A983D8 /* hodlwallet WatchKit Extension */ = {
+		75A2A7C61DA5934300A983D8 /* godlwallet WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75A2A7DB1DA5934400A983D8 /* Build configuration list for PBXNativeTarget "hodlwallet WatchKit Extension" */;
+			buildConfigurationList = 75A2A7DB1DA5934400A983D8 /* Build configuration list for PBXNativeTarget "godlwallet WatchKit Extension" */;
 			buildPhases = (
 				75A2A7C31DA5934300A983D8 /* Sources */,
 				75A2A7C41DA5934300A983D8 /* Frameworks */,
@@ -3383,9 +3383,9 @@
 			);
 			dependencies = (
 			);
-			name = "hodlwallet WatchKit Extension";
-			productName = "hodlwallet WatchKit Extension";
-			productReference = 75A2A7C71DA5934300A983D8 /* hodlwallet WatchKit Extension.appex */;
+			name = "godlwallet WatchKit Extension";
+			productName = "godlwallet WatchKit Extension";
+			productReference = 75A2A7C71DA5934300A983D8 /* godlwallet WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 		75A2A7EF1DA5935F00A983D8 /* MessagesExtension */ = {
@@ -3576,7 +3576,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 75A2A78B1DA5934300A983D8 /* Build configuration list for PBXProject "hodlwallet" */;
+			buildConfigurationList = 75A2A78B1DA5934300A983D8 /* Build configuration list for PBXProject "godlwallet" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -3608,11 +3608,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75A2A78F1DA5934300A983D8 /* hodlwallet */,
-				75A2A7A31DA5934300A983D8 /* hodlwalletTests */,
-				75A2A7AE1DA5934300A983D8 /* hodlwalletUITests */,
-				75A2A7B71DA5934300A983D8 /* hodlwallet WatchKit App */,
-				75A2A7C61DA5934300A983D8 /* hodlwallet WatchKit Extension */,
+				75A2A78F1DA5934300A983D8 /* godlwallet */,
+				75A2A7A31DA5934300A983D8 /* godlwalletTests */,
+				75A2A7AE1DA5934300A983D8 /* godlwalletUITests */,
+				75A2A7B71DA5934300A983D8 /* godlwallet WatchKit App */,
+				75A2A7C61DA5934300A983D8 /* godlwallet WatchKit Extension */,
 				75A2A7EF1DA5935F00A983D8 /* MessagesExtension */,
 				75A2A8071DA5936F00A983D8 /* TodayExtension */,
 				75A2A81B1DA5938500A983D8 /* NotificationServiceExtension */,
@@ -4249,22 +4249,22 @@
 		};
 		75A2A7A61DA5934300A983D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 75A2A78F1DA5934300A983D8 /* hodlwallet */;
+			target = 75A2A78F1DA5934300A983D8 /* godlwallet */;
 			targetProxy = 75A2A7A51DA5934300A983D8 /* PBXContainerItemProxy */;
 		};
 		75A2A7B11DA5934300A983D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 75A2A78F1DA5934300A983D8 /* hodlwallet */;
+			target = 75A2A78F1DA5934300A983D8 /* godlwallet */;
 			targetProxy = 75A2A7B01DA5934300A983D8 /* PBXContainerItemProxy */;
 		};
 		75A2A7BB1DA5934300A983D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 75A2A7B71DA5934300A983D8 /* hodlwallet WatchKit App */;
+			target = 75A2A7B71DA5934300A983D8 /* godlwallet WatchKit App */;
 			targetProxy = 75A2A7BA1DA5934300A983D8 /* PBXContainerItemProxy */;
 		};
 		75A2A7CA1DA5934300A983D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 75A2A7C61DA5934300A983D8 /* hodlwallet WatchKit Extension */;
+			target = 75A2A7C61DA5934300A983D8 /* godlwallet WatchKit Extension */;
 			targetProxy = 75A2A7C91DA5934300A983D8 /* PBXContainerItemProxy */;
 		};
 		75A2A8131DA5936F00A983D8 /* PBXTargetDependency */ = {
@@ -4279,7 +4279,7 @@
 		};
 		CEA7E6811F09A9D2001F8C27 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 75A2A78F1DA5934300A983D8 /* hodlwallet */;
+			target = 75A2A78F1DA5934300A983D8 /* godlwallet */;
 			targetProxy = CEA7E6801F09A9D2001F8C27 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -4424,7 +4424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadwallet.libbz2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4450,7 +4450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadwallet.libbz2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4476,7 +4476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadwallet.sqlite3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4502,7 +4502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadwallet.sqlite3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4573,14 +4573,14 @@
 		759DA0D81DAC8668008CC49B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 			};
 			name = Debug;
 		};
 		759DA0D91DAC8668008CC49B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 			};
 			name = Release;
 		};
@@ -4640,7 +4640,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules/** $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules/** $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -4696,7 +4696,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules/** $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules/** $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
@@ -4710,9 +4710,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = "hodlwallet WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "godlwallet WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -4727,9 +4727,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = "hodlwallet WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "godlwallet WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -4746,10 +4746,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				IBSC_MODULE = hodlwallet_WatchKit_Extension;
-				INFOPLIST_FILE = "hodlwallet WatchKit App/Info.plist";
+				IBSC_MODULE = godlwallet_WatchKit_Extension;
+				INFOPLIST_FILE = "godlwallet WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -4767,10 +4767,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				IBSC_MODULE = hodlwallet_WatchKit_Extension;
-				INFOPLIST_FILE = "hodlwallet WatchKit App/Info.plist";
+				IBSC_MODULE = godlwallet_WatchKit_Extension;
+				INFOPLIST_FILE = "godlwallet WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -4786,13 +4786,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = hodlwallet/hodlwallet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = godlwallet/godlwallet.entitlements;
 				DEVELOPMENT_TEAM = J829PTGA25;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
-				INFOPLIST_FILE = hodlwallet/Info.plist;
+				INFOPLIST_FILE = godlwallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDebug";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -4806,13 +4806,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = hodlwallet/hodlwallet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = godlwallet/godlwallet.entitlements;
 				DEVELOPMENT_TEAM = J829PTGA25;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
-				INFOPLIST_FILE = hodlwallet/Info.plist;
+				INFOPLIST_FILE = godlwallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -4825,12 +4825,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = hodlwalletTests/Info.plist;
+				INFOPLIST_FILE = godlwalletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwalletTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwalletTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hodlwallet.app/hodlwallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/godlwallet.app/godlwallet";
 			};
 			name = Debug;
 		};
@@ -4840,12 +4840,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = hodlwalletTests/Info.plist;
+				INFOPLIST_FILE = godlwalletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwalletTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwalletTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hodlwallet.app/hodlwallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/godlwallet.app/godlwallet";
 			};
 			name = Release;
 		};
@@ -4854,12 +4854,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = hodlwalletUITests/Info.plist;
+				INFOPLIST_FILE = godlwalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwalletUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = hodlwallet;
+				TEST_TARGET_NAME = godlwallet;
 			};
 			name = Debug;
 		};
@@ -4868,12 +4868,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = hodlwalletUITests/Info.plist;
+				INFOPLIST_FILE = godlwalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwalletUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = hodlwallet;
+				TEST_TARGET_NAME = godlwallet;
 			};
 			name = Release;
 		};
@@ -4885,7 +4885,7 @@
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -4899,7 +4899,7 @@
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -4912,7 +4912,7 @@
 				DEVELOPMENT_TEAM = J829PTGA25;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.TodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -4925,7 +4925,7 @@
 				DEVELOPMENT_TEAM = J829PTGA25;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.TodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -4938,7 +4938,7 @@
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.NotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -4952,7 +4952,7 @@
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.NotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -4996,7 +4996,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.voisine..Screenshots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = hodlwallet;
+				TEST_TARGET_NAME = godlwallet;
 			};
 			name = Debug;
 		};
@@ -5011,7 +5011,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.voisine..Screenshots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = hodlwallet;
+				TEST_TARGET_NAME = godlwallet;
 			};
 			name = Release;
 		};
@@ -5026,7 +5026,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.voisine..Screenshots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = hodlwallet;
+				TEST_TARGET_NAME = godlwallet;
 			};
 			name = Testflight;
 		};
@@ -5086,7 +5086,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules/** $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules/** $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -5100,13 +5100,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = hodlwallet/hodlwallet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = godlwallet/godlwallet.entitlements;
 				DEVELOPMENT_TEAM = J829PTGA25;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
-				INFOPLIST_FILE = hodlwallet/Info.plist;
+				INFOPLIST_FILE = godlwallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDebug -DScreenshots -DTestnet";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -5120,12 +5120,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = hodlwalletTests/Info.plist;
+				INFOPLIST_FILE = godlwalletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwalletTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwalletTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hodlwallet.app/hodlwallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/godlwallet.app/godlwallet";
 			};
 			name = Screenshots;
 		};
@@ -5134,12 +5134,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = hodlwalletUITests/Info.plist;
+				INFOPLIST_FILE = godlwalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwalletUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = hodlwallet;
+				TEST_TARGET_NAME = godlwallet;
 			};
 			name = Screenshots;
 		};
@@ -5150,10 +5150,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				IBSC_MODULE = hodlwallet_WatchKit_Extension;
-				INFOPLIST_FILE = "hodlwallet WatchKit App/Info.plist";
+				IBSC_MODULE = godlwallet_WatchKit_Extension;
+				INFOPLIST_FILE = "godlwallet WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -5169,9 +5169,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = "hodlwallet WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "godlwallet WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -5189,7 +5189,7 @@
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -5202,7 +5202,7 @@
 				DEVELOPMENT_TEAM = J829PTGA25;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.TodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -5215,7 +5215,7 @@
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.NotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -5271,7 +5271,7 @@
 		CEA7E6941F09AC6A001F8C27 /* Screenshots */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 			};
 			name = Screenshots;
 		};
@@ -5294,7 +5294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadwallet.libbz2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -5320,7 +5320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadwallet.sqlite3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -5338,7 +5338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.voisine..Screenshots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = hodlwallet;
+				TEST_TARGET_NAME = godlwallet;
 			};
 			name = Screenshots;
 		};
@@ -5398,7 +5398,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules/** $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules/** $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -5412,13 +5412,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = hodlwallet/hodlwallet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = godlwallet/godlwallet.entitlements;
 				DEVELOPMENT_TEAM = J829PTGA25;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
-				INFOPLIST_FILE = hodlwallet/Info.plist;
+				INFOPLIST_FILE = godlwallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDebug -DTestnet";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -5432,12 +5432,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = hodlwalletTests/Info.plist;
+				INFOPLIST_FILE = godlwalletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwalletTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwalletTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hodlwallet.app/hodlwallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/godlwallet.app/godlwallet";
 			};
 			name = Testnet;
 		};
@@ -5446,12 +5446,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = hodlwalletUITests/Info.plist;
+				INFOPLIST_FILE = godlwalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwalletUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = hodlwallet;
+				TEST_TARGET_NAME = godlwallet;
 			};
 			name = Testnet;
 		};
@@ -5462,10 +5462,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				IBSC_MODULE = hodlwallet_WatchKit_Extension;
-				INFOPLIST_FILE = "hodlwallet WatchKit App/Info.plist";
+				IBSC_MODULE = godlwallet_WatchKit_Extension;
+				INFOPLIST_FILE = "godlwallet WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -5481,9 +5481,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = "hodlwallet WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "godlwallet WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -5501,7 +5501,7 @@
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -5514,7 +5514,7 @@
 				DEVELOPMENT_TEAM = J829PTGA25;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.TodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -5527,7 +5527,7 @@
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.NotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -5583,7 +5583,7 @@
 		CEA7E6A71F0AAA84001F8C27 /* Testnet */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 			};
 			name = Testnet;
 		};
@@ -5606,7 +5606,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadwallet.libbz2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -5632,7 +5632,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadwallet.sqlite3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -5650,7 +5650,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.voisine..Screenshots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = hodlwallet;
+				TEST_TARGET_NAME = godlwallet;
 			};
 			name = Testnet;
 		};
@@ -5702,7 +5702,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules/** $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules/** $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
@@ -5717,13 +5717,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = hodlwallet/hodlwallet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = godlwallet/godlwallet.entitlements;
 				DEVELOPMENT_TEAM = J829PTGA25;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
-				INFOPLIST_FILE = hodlwallet/Info.plist;
+				INFOPLIST_FILE = godlwallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DTestflight -DDebug";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -5736,12 +5736,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = hodlwalletTests/Info.plist;
+				INFOPLIST_FILE = godlwalletTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwalletTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwalletTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hodlwallet.app/hodlwallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/godlwallet.app/godlwallet";
 			};
 			name = Testflight;
 		};
@@ -5750,12 +5750,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = hodlwalletUITests/Info.plist;
+				INFOPLIST_FILE = godlwalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwalletUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = hodlwallet;
+				TEST_TARGET_NAME = godlwallet;
 			};
 			name = Testflight;
 		};
@@ -5766,10 +5766,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				IBSC_MODULE = hodlwallet_WatchKit_Extension;
-				INFOPLIST_FILE = "hodlwallet WatchKit App/Info.plist";
+				IBSC_MODULE = godlwallet_WatchKit_Extension;
+				INFOPLIST_FILE = "godlwallet WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -5784,9 +5784,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = J829PTGA25;
-				INFOPLIST_FILE = "hodlwallet WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "godlwallet WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -5804,7 +5804,7 @@
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -5817,7 +5817,7 @@
 				DEVELOPMENT_TEAM = J829PTGA25;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.TodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -5830,7 +5830,7 @@
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.hodlwallet.NotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = co.godlwallet.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -5881,7 +5881,7 @@
 		CEE0EF601EBF8D7F0018DB36 /* Testflight */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 			};
 			name = Testflight;
 		};
@@ -5904,7 +5904,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadwallet.libbz2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -5930,7 +5930,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadwallet.sqlite3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/hodlwallet/src/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/godlwallet/src/Platform";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -6000,7 +6000,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75A2A78B1DA5934300A983D8 /* Build configuration list for PBXProject "hodlwallet" */ = {
+		75A2A78B1DA5934300A983D8 /* Build configuration list for PBXProject "godlwallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75A2A7D91DA5934400A983D8 /* Debug */,
@@ -6012,7 +6012,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75A2A7DB1DA5934400A983D8 /* Build configuration list for PBXNativeTarget "hodlwallet WatchKit Extension" */ = {
+		75A2A7DB1DA5934400A983D8 /* Build configuration list for PBXNativeTarget "godlwallet WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75A2A7DC1DA5934400A983D8 /* Debug */,
@@ -6024,7 +6024,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75A2A7DF1DA5934400A983D8 /* Build configuration list for PBXNativeTarget "hodlwallet WatchKit App" */ = {
+		75A2A7DF1DA5934400A983D8 /* Build configuration list for PBXNativeTarget "godlwallet WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75A2A7E01DA5934400A983D8 /* Debug */,
@@ -6036,7 +6036,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75A2A7E31DA5934400A983D8 /* Build configuration list for PBXNativeTarget "hodlwallet" */ = {
+		75A2A7E31DA5934400A983D8 /* Build configuration list for PBXNativeTarget "godlwallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75A2A7E41DA5934400A983D8 /* Debug */,
@@ -6048,7 +6048,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75A2A7E61DA5934400A983D8 /* Build configuration list for PBXNativeTarget "hodlwalletTests" */ = {
+		75A2A7E61DA5934400A983D8 /* Build configuration list for PBXNativeTarget "godlwalletTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75A2A7E71DA5934400A983D8 /* Debug */,
@@ -6060,7 +6060,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75A2A7E91DA5934400A983D8 /* Build configuration list for PBXNativeTarget "hodlwalletUITests" */ = {
+		75A2A7E91DA5934400A983D8 /* Build configuration list for PBXNativeTarget "godlwalletUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75A2A7EA1DA5934400A983D8 /* Debug */,

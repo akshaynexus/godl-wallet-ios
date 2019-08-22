@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-               BuildableName = "hodlwallet.app"
-               BlueprintName = "hodlwallet"
-               ReferencedContainer = "container:hodlwallet.xcodeproj">
+               BuildableName = "godlwallet.app"
+               BlueprintName = "godlwallet"
+               ReferencedContainer = "container:godlwallet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "75A2A7A31DA5934300A983D8"
-               BuildableName = "hodlwalletTests.xctest"
-               BlueprintName = "hodlwalletTests"
-               ReferencedContainer = "container:hodlwallet.xcodeproj">
+               BuildableName = "godlwalletTests.xctest"
+               BlueprintName = "godlwalletTests"
+               ReferencedContainer = "container:godlwallet.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "75A2A7AE1DA5934300A983D8"
-               BuildableName = "hodlwalletUITests.xctest"
-               BlueprintName = "hodlwalletUITests"
-               ReferencedContainer = "container:hodlwallet.xcodeproj">
+               BuildableName = "godlwalletUITests.xctest"
+               BlueprintName = "godlwalletUITests"
+               ReferencedContainer = "container:godlwallet.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -55,7 +55,7 @@
                BlueprintIdentifier = "CEA7E67A1F09A9D2001F8C27"
                BuildableName = "Screenshots.xctest"
                BlueprintName = "Screenshots"
-               ReferencedContainer = "container:hodlwallet.xcodeproj">
+               ReferencedContainer = "container:godlwallet.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -63,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-            BuildableName = "hodlwallet.app"
-            BlueprintName = "hodlwallet"
-            ReferencedContainer = "container:hodlwallet.xcodeproj">
+            BuildableName = "godlwallet.app"
+            BlueprintName = "godlwallet"
+            ReferencedContainer = "container:godlwallet.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -87,9 +87,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-            BuildableName = "hodlwallet.app"
-            BlueprintName = "hodlwallet"
-            ReferencedContainer = "container:hodlwallet.xcodeproj">
+            BuildableName = "godlwallet.app"
+            BlueprintName = "godlwallet"
+            ReferencedContainer = "container:godlwallet.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-            BuildableName = "hodlwallet.app"
-            BlueprintName = "hodlwallet"
-            ReferencedContainer = "container:hodlwallet.xcodeproj">
+            BuildableName = "godlwallet.app"
+            BlueprintName = "godlwallet"
+            ReferencedContainer = "container:godlwallet.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -123,7 +123,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Testflight"
+      buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
