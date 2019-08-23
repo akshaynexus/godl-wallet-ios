@@ -34,7 +34,7 @@ struct C {
     static let maxMoney: UInt64 = 21000000*100000000
     static let satoshis: UInt64 = 100000000
     static let walletQueue = "co.godlwallet.walletqueue"
-    static let btcCurrencyCode = "BTC"
+    static let btcCurrencyCode = "GLC"
     static let null = "(null)"
     static let maxMemoLength = 250
     static let feedbackEmail = "support@godlwallet.co"
