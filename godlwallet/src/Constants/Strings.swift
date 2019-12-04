@@ -15,9 +15,9 @@ enum S {
         static let sat = "SAT"
         static var btc: String {
             if  #available(iOS 10, *) {
-                return "Ǥ"
+                return "ð"
             } else {
-                return "Ǥ"
+                return "ð"
             }
         }
         static let narrowSpace = "\u{2009}"

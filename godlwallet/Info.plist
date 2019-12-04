@@ -111,6 +111,8 @@
 	<string>Used to scan barcodes</string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>GothamBook-Regular.otf</string>
+		<string>goldcoin-custom.ttf</string>
 		<string>Electrolize-Regular.ttf</string>
 	</array>
 	<key>UIBackgroundModes</key>

@@ -41,6 +41,7 @@ enum TriggerName {
     case registerForPushNotificationToken
     case retrySync
     case rescan
+    case fastRescan
     case lock
     case promptBiometrics
     case promptPaperKey
@@ -78,6 +79,8 @@ func ==(lhs: TriggerName, rhs: TriggerName) -> Bool {
     case (.retrySync, .retrySync):
         return true
     case (.rescan, .rescan):
+        return true
+    case (.fastRescan, .fastRescan):
         return true
     case (.lock, .lock):
         return true

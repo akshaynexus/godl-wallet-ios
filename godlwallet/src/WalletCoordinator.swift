@@ -260,7 +260,18 @@ class WalletCoordinator : Subscriber, Trackable {
                 self.walletManager.peerManager?.rescan()
             }
         })
-
+        store.subscribe(self, name: .fastRescan, callback: { _ in
+            self.store.perform(action: RecommendRescan.set(false))
+            //In case rescan is called while a sync is in progess
+            //we need to make sure it's false before a rescan starts
+            //self.store.perform(action: WalletChange.setIsSyncing(false))
+            DispatchQueue.walletQueue.async {
+                self.walletManager.peerManager?.fastrescan()
+            }
+        })
+        store.subscribe(self, name: .fastRescan, callback: { _ in
+            self.store.perform(action: WalletChange.setIsRescanning(true))
+        })
         store.subscribe(self, name: .rescan, callback: { _ in
             self.store.perform(action: WalletChange.setIsRescanning(true))
         })

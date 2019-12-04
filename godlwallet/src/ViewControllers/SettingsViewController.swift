@@ -34,6 +34,14 @@ class SettingsViewController : UITableViewController, CustomTitleView {
     override func viewDidLoad() {
         let headerView = UIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 48.0))
         headerView.backgroundColor = .grayBackground
+        for family: String in UIFont.familyNames
+        {
+            print(family)
+            for names: String in UIFont.fontNames(forFamilyName: family)
+            {
+                print("== \(names)")
+            }
+        }
         headerView.addSubview(titleLabel)
         titleLabel.constrain(toSuperviewEdges: UIEdgeInsetsMake(0, C.padding[2], 0, 0))
         tableView.register(SeparatorCell.self, forCellReuseIdentifier: cellIdentifier)
